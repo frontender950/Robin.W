@@ -399,7 +399,7 @@ img {
 }
 
 .first-section {
-  height: 90vh;
+  min-height: 814px;
 }
 
 .gray-square {
@@ -411,9 +411,11 @@ img {
 
 .hero-square {
   position: absolute;
+  top: 166px;
   z-index: 10;
   height: 80vh;
   width: 50vw;
+  height: 650px;
   object-fit: cover;
 }
 
