@@ -435,7 +435,6 @@ img {
   font-size: 78px;
   line-height: 94px;
   margin: 0;
-  margin-bottom: 32px;
 }
 
 .hero-name--country {
@@ -446,7 +445,8 @@ img {
   left: 0;
   font-size: 78px;
   line-height: 94px;
-  font-weight: bold;
+  width: 100%;
+  min-height: 94px;
 }
 
 .hero-name__about {
@@ -590,6 +590,9 @@ img {
 }
 
 @media (max-width: 576px) {
+  .header-wrapper {
+    margin: 0 20px;
+  }
   .hero-square {
     max-height: 300px;
   }
@@ -602,14 +605,43 @@ img {
     left: 20px;
   }
   .hero-name--country {
-    max-width: 550px;
+    width: 100%;
     top: 80px;
     left: 0;
+    font-size: 32px;
+    line-height: 38px;
   }
   .hero-name__about {
-    top: 568px;
+    top: 570px;
     right: 20px;
     left: 20px;
     max-width: 550px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 150%;
+  }
+}
+
+@media (max-width: 360px) {
+  .header-wrapper {
+    margin: 0 10px;
+  }
+  .hero-name {
+    right: 10px;
+    left: 10px;
+    max-width: 180px;
+    top: 400px;
+  }
+  .hero-name--country {
+    top: 150px;
+    left: 0;
+    right: 0;
+    max-width: 200px;
+  }
+  .hero-name__about {
+    left: 10px;
+    right: 10px;
+    top: 640px;
   }
 }
