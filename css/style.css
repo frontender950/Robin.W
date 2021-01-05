@@ -398,8 +398,12 @@ img {
   background: #5221E6;
 }
 
-.first-section {
-  min-height: 814px;
+.navbar-menu__button {
+  display: none;
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+  background: inherit;
 }
 
 .gray-square {
@@ -456,24 +460,6 @@ img {
   max-width: 738px;
   min-height: 54px;
   margin: 0;
-}
-
-.menu-button {
-  width: 24px;
-  height: 24px;
-  cursor: pointer;
-  background: inherit;
-}
-
-.menu-button__line-top {
-  width: 18px;
-  height: 3px;
-  color: #8491A0;
-}
-
-.menu-button__line-bot {
-  width: 13px;
-  height: 3px;
 }
 
 @media (max-width: 1920px) {
@@ -550,5 +536,80 @@ img {
 @media (max-width: 740px) {
   .navbar-menu {
     display: none;
+  }
+  .navbar-menu--mobile_fixed {
+    position: fixed;
+  }
+  .navbar-menu__button {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    flex-direction: column;
+    padding: 3px;
+    border: none;
+    cursor: pointer;
+  }
+  .navbar-menu__button:hover {
+    background-color: #5221E6;
+    border-radius: 4px;
+  }
+  .navbar-menu__button-line_top {
+    width: 18px;
+    height: 3px;
+    margin-bottom: 5px;
+    background-color: #ffffff;
+  }
+  .navbar-menu__button-line_bot {
+    width: 13px;
+    height: 3px;
+    right: 0;
+    background-color: #ffffff;
+  }
+  .hero-square {
+    width: 100%;
+    top: 88px;
+  }
+  .hero-name {
+    font-size: 40px;
+    line-height: 45px;
+    width: 90%;
+    min-height: 80px;
+    top: 455px;
+  }
+  .hero-name--country {
+    top: 92px;
+    font-size: 40px;
+    line-height: 45px;
+    min-height: 40px;
+  }
+  .hero-name__about {
+    font-size: 18px;
+    line-height: 150%;
+    top: 607px;
+  }
+}
+
+@media (max-width: 576px) {
+  .hero-square {
+    max-height: 300px;
+  }
+  .hero-name {
+    max-width: 550px;
+    font-size: 32px;
+    line-height: 38px;
+    top: 436px;
+    right: 20px;
+    left: 20px;
+  }
+  .hero-name--country {
+    max-width: 550px;
+    top: 80px;
+    left: 0;
+  }
+  .hero-name__about {
+    top: 568px;
+    right: 20px;
+    left: 20px;
+    max-width: 550px;
   }
 }
