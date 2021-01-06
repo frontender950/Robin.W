@@ -497,7 +497,6 @@ img {
 
 .companies-list {
   display: flex;
-  justify-content: space-between;
   list-style-type: none;
   padding: 0;
   margin: 0;
@@ -506,7 +505,8 @@ img {
 .companies-item {
   display: flex;
   flex-direction: column;
-  max-width: 368px;
+  width: 100%;
+  margin-right: 72px;
 }
 
 .companies-num {
@@ -559,6 +559,18 @@ img {
   }
   .hero-name__about {
     right: 50px;
+  }
+  .companies-item {
+    margin-right: 180px;
+  }
+  .companies-item:last-child {
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 1440px) {
+  .companies-item {
+    margin-right: 72px;
   }
 }
 
@@ -615,9 +627,18 @@ img {
     max-width: 408px;
     font-size: 18px;
   }
+  .companies {
+    padding: 80px 0;
+  }
+  .companies-wrapper {
+    margin: 0 40px;
+  }
+  .companies-item {
+    max-width: 197px;
+  }
 }
 
-@media (max-width: 740px) {
+@media (max-width: 768px) {
   .navbar-menu {
     display: none;
   }
@@ -674,6 +695,12 @@ img {
     line-height: 150%;
     top: 607px;
   }
+  .companies-item {
+    margin-right: 40px;
+  }
+  .companies-text {
+    margin-top: 24px;
+  }
 }
 
 @media (max-width: 576px) {
@@ -708,6 +735,29 @@ img {
     font-size: 18px;
     line-height: 150%;
   }
+  .companies {
+    padding: 48px 0;
+  }
+  .companies-wrapper {
+    margin: 0 20px;
+  }
+  .companies-title {
+    font-size: 32px;
+    line-height: 38px;
+    min-height: 70px;
+    margin-bottom: 20px;
+  }
+  .companies-list {
+    flex-direction: column;
+  }
+  .companies-item {
+    margin-right: 0;
+    margin-bottom: 40px;
+    max-width: 310px;
+  }
+  .companies-position {
+    min-height: 72px;
+  }
 }
 
 @media (max-width: 360px) {
@@ -715,7 +765,7 @@ img {
     margin: 0 10px;
   }
   .first-section {
-    height: 100%;
+    height: 80vh;
   }
   .hero-name {
     right: 10px;
