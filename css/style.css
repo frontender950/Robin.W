@@ -406,6 +406,10 @@ img {
   background: inherit;
 }
 
+.first-section {
+  min-height: 812px;
+}
+
 .gray-square {
   position: absolute;
   z-index: 5;
@@ -460,6 +464,86 @@ img {
   max-width: 738px;
   min-height: 54px;
   margin: 0;
+}
+
+.companies {
+  padding: 120px 0;
+}
+
+.companies-wrapper {
+  margin: 0 72px;
+}
+
+.companies-subtitle {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 150%;
+  text-transform: uppercase;
+  color: #8491A0;
+}
+
+.companies-title {
+  max-width: 690px;
+  min-height: 132px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 55px;
+  line-height: 66px;
+  color: #ffffff;
+  margin-top: 8px;
+  margin-bottom: 40px;
+}
+
+.companies-list {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.companies-item {
+  display: flex;
+  flex-direction: column;
+  max-width: 368px;
+}
+
+.companies-num {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 117px;
+  line-height: 141px;
+  color: #8491A0;
+}
+
+.companies-position {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 150%;
+}
+
+.companies-position_green {
+  color: #3CC74E;
+}
+
+.companies-position_blue {
+  color: #609BFF;
+}
+
+.companies-position_pink {
+  color: #E95D90;
+}
+
+.companies-text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%;
+  color: #8491A0;
+  margin-top: 22px;
+  margin-bottom: 0;
 }
 
 @media (max-width: 1920px) {
@@ -565,6 +649,9 @@ img {
     right: 0;
     background-color: #ffffff;
   }
+  .first-section {
+    min-height: 650px;
+  }
   .hero-square {
     width: 100%;
     top: 88px;
@@ -626,6 +713,9 @@ img {
 @media (max-width: 360px) {
   .header-wrapper {
     margin: 0 10px;
+  }
+  .first-section {
+    height: 100%;
   }
   .hero-name {
     right: 10px;
