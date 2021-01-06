@@ -546,6 +546,69 @@ img {
   margin-bottom: 0;
 }
 
+.philosophy-wrapper {
+  display: flex;
+  height: 600px;
+}
+
+.philosophy-left {
+  padding: 120px 72px;
+  height: 600px;
+  width: 50vw;
+  background-color: #FFF3E4;
+}
+
+.philosophy-title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 55px;
+  line-height: 66px;
+  margin: 0;
+  margin-bottom: 24px;
+  color: #181823;
+}
+
+.philosophy-text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 150%;
+  max-width: 576px;
+  min-height: 108px;
+  margin: 0;
+  margin-bottom: 134px;
+  color: #5B6876;
+}
+
+.philosophy-link {
+  width: 116px;
+  height: 24px;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%;
+  color: #181823;
+  margin-bottom: 4px;
+}
+
+.philosophy-line::after {
+  content: '';
+  display: block;
+  width: 116px;
+  border: 1px solid #8491A0;
+}
+
+.philosophy-right {
+  width: 50vw;
+}
+
+.philosophy-image {
+  height: 600px;
+  width: 100%;
+  object-fit: cover;
+}
+
 @media (max-width: 1920px) {
   .hero-square {
     width: 55vw;
