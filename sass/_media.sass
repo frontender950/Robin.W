@@ -17,6 +17,10 @@
   .companies
     &-item
       margin-right: 72px
+  .philosophy
+    &-left
+      display: flex
+      flex-direction: column
 @media ( max-width: 1200px)
   .header-wrapper
     margin: 0 50px
@@ -64,6 +68,14 @@
       margin: 0 40px
     &-item
       max-width: 197px
+  .philosophy
+    min-height: 600px
+    &-left
+      padding: 80px 40px
+    &-text
+      margin-bottom: 67px
+    &-image
+      height: 600px
 @media ( max-width: 768px)
   .navbar-menu
     display: none
@@ -116,6 +128,21 @@
       margin-right: 40px
     &-text
       margin-top: 24px
+  .philosophy
+    &-wrapper
+      display: flex
+      flex-direction: column
+    &-left
+      width: 100%
+      min-height: 450px
+      padding: 48px 20px
+    &-right
+      width: 100%
+      min-height: 450px
+    &-text
+      margin-bottom: 90px
+    &-image
+      height: 450px
 @media ( max-width: 576px)
   .header-wrapper
     margin: 0 20px
@@ -160,6 +187,9 @@
       max-width: 310px
     &-position
       min-height: 72px
+  .philosophy
+    font-size: 32px
+    line-height: 38px
 @media ( max-width: 360px)
   .header-wrapper
     margin: 0 10px
