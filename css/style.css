@@ -695,6 +695,7 @@ img {
   }
   .hero-name__about {
     right: 50px;
+    max-width: 725px;
   }
   .companies-item {
     margin-right: 180px;
@@ -725,21 +726,25 @@ img {
   .hero-name {
     font-size: 65px;
     line-height: 80px;
-    max-width: 630px;
+    max-width: 638px;
     min-height: 260px;
     right: 10px;
     margin: 0;
   }
   .hero-name--country {
+    min-height: 80px;
+    width: 100%;
     font-size: 65px;
     line-height: 80px;
     top: 161px;
   }
   .hero-name__about {
-    max-width: 630px;
+    max-width: 604px;
+    min-height: 54px;
     top: 580px;
     right: 10px;
-    font-size: 16px;
+    font-size: 18px;
+    line-height: 150%;
   }
 }
 
@@ -760,12 +765,16 @@ img {
   .hero-name--country {
     top: 265px;
     font-size: 56px;
+    min-height: 67px;
     line-height: 67px;
   }
   .hero-name__about {
     top: 620px;
     max-width: 408px;
     font-size: 18px;
+    font-size: 18px;
+    line-height: 150%;
+    min-height: 108px;
   }
   .companies {
     padding: 80px 0;
@@ -823,7 +832,7 @@ img {
     background-color: #ffffff;
   }
   .first-section {
-    min-height: 650px;
+    min-height: 625px;
   }
   .hero-square {
     width: 100%;
@@ -940,23 +949,24 @@ img {
     margin: 0 10px;
   }
   .first-section {
-    height: 80vh;
+    height: 74vh;
   }
   .hero-name {
-    right: 10px;
-    left: 10px;
-    max-width: 180px;
+    right: 20px;
+    left: 20px;
+    width: 240px;
     top: 400px;
   }
   .hero-name--country {
     top: 150px;
     left: 0;
     right: 0;
-    max-width: 200px;
+    width: 100%;
   }
   .hero-name__about {
-    left: 10px;
-    right: 10px;
-    top: 640px;
+    left: 20px;
+    right: 20px;
+    top: 608px;
+    max-width: 308px;
   }
 }
