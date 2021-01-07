@@ -546,7 +546,7 @@ img {
   margin-bottom: 0;
 }
 
-.philosophy-wrapper {
+.philosophy {
   display: flex;
   height: 600px;
 }
@@ -578,6 +578,11 @@ img {
   margin: 0;
   margin-bottom: 134px;
   color: #5B6876;
+}
+
+.philosophy-about {
+  width: 116px;
+  height: 29px;
 }
 
 .philosophy-about__link {
@@ -839,22 +844,25 @@ img {
     top: 88px;
   }
   .hero-name {
-    font-size: 40px;
-    line-height: 45px;
+    font-size: 57px;
+    line-height: 60px;
     width: 90%;
-    min-height: 80px;
-    top: 455px;
+    top: 251px;
+    max-width: 455px;
+    left: 40px;
   }
   .hero-name--country {
-    top: 92px;
-    font-size: 40px;
-    line-height: 45px;
-    min-height: 40px;
+    font-size: 57px;
+    line-height: 60px;
+    width: 90%;
+    top: 251px;
+    left: 0;
+    top: 236px;
   }
   .hero-name__about {
     font-size: 18px;
     line-height: 150%;
-    top: 607px;
+    top: 606px;
   }
   .companies-item {
     margin-right: 40px;
@@ -862,13 +870,12 @@ img {
   .companies-text {
     margin-top: 24px;
   }
-  .philosophy-wrapper {
+  .philosophy {
     display: flex;
     flex-direction: column;
   }
   .philosophy-left {
     width: 100%;
-    min-height: 450px;
     padding: 48px 20px;
   }
   .philosophy-right {
@@ -876,7 +883,7 @@ img {
     min-height: 450px;
   }
   .philosophy-text {
-    margin-bottom: 90px;
+    margin-bottom: 60px;
   }
   .philosophy-image {
     height: 450px;
@@ -941,6 +948,20 @@ img {
   .philosophy {
     font-size: 32px;
     line-height: 38px;
+  }
+  .philosophy-title {
+    font-size: 32px;
+    line-height: 38px;
+  }
+  .philosophy-text {
+    font-size: 18px;
+    line-height: 150%;
+  }
+  .philosophy-about {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
   }
 }
 
