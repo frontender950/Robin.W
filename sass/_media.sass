@@ -22,6 +22,13 @@
     &-left
       display: flex
       flex-direction: column
+  .skillset
+    &-work
+      &__item
+        &--right
+          margin-right: 0
+        &--left
+          margin-right: 72px
 @media ( max-width: 1200px)
   .header-wrapper
     margin: 0 50px
@@ -72,9 +79,6 @@
       line-height: 150%
       min-height: 108px
   .companies
-    padding: 80px 0
-    &-wrapper
-      margin: 0 40px
     &-item
       max-width: 197px
   .philosophy
@@ -85,7 +89,27 @@
       margin-bottom: 67px
     &-image
       height: 600px
+  .container
+    padding: 80px 40px
+  .skillset
+    &-wrapper
+      display: flex
+      flex-direction: column
+    &-description
+      margin-bottom: 48px
+      margin-right: 0
+      width: inherit
+    &-work
+      &__item
+        width: 284px
+        &--logo
+          margin: 0
+          width: 32px
+          height: 32px
+          margin-bottom: 24px
 @media ( max-width: 768px)
+  .container
+    padding: 80px 20px
   .navbar-menu
     display: none
     &--mobile
@@ -154,6 +178,8 @@
     &-image
       height: 450px
 @media ( max-width: 576px)
+  .container
+    padding: 48px 20px
   .header-wrapper
     margin: 0 20px
   .hero-square
@@ -181,9 +207,6 @@
       font-size: 18px
       line-height: 150%
   .companies
-    padding: 48px 0
-    &-wrapper
-      margin: 0 20px
     &-title
       font-size: 32px
       line-height: 38px

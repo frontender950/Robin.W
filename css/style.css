@@ -351,6 +351,7 @@ body {
 .container {
   max-width: 1920px;
   margin: auto;
+  padding: 120px 72px;
 }
 
 img {
@@ -370,7 +371,8 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 0 72px;
+  margin-right: 40px;
+  margin-left: 40px;
 }
 
 .navbar-menu {
@@ -464,14 +466,6 @@ img {
   max-width: 738px;
   min-height: 54px;
   margin: 0;
-}
-
-.companies {
-  padding: 120px 0;
-}
-
-.companies-wrapper {
-  margin: 0 72px;
 }
 
 .companies-subtitle {
@@ -614,36 +608,36 @@ img {
   object-fit: cover;
 }
 
-.skillset {
-  padding: 120px 72px;
-}
-
 .skillset-wrapper {
   display: flex;
 }
 
 .skillset-description {
-  max-width: 368px;
-  margin-right: 72px;
+  width: 368px;
+  margin-right: 165px;
+  line-height: 150%;
+  color: #8491A0;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
 }
 
 .skillset-description__title {
+  color: #ffffff;
   font-style: normal;
   font-weight: bold;
   font-size: 55px;
   line-height: 66px;
-  color: #ffffff;
   margin: 0;
   margin-bottom: 24px;
 }
 
 .skillset-description__text {
+  margin: 0;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
   line-height: 150%;
-  color: #8491A0;
-  margin: 0;
 }
 
 .skillset-work__list {
@@ -747,6 +741,12 @@ img {
     display: flex;
     flex-direction: column;
   }
+  .skillset-work__item--right {
+    margin-right: 0;
+  }
+  .skillset-work__item--left {
+    margin-right: 72px;
+  }
 }
 
 @media (max-width: 1200px) {
@@ -810,12 +810,6 @@ img {
     line-height: 150%;
     min-height: 108px;
   }
-  .companies {
-    padding: 80px 0;
-  }
-  .companies-wrapper {
-    margin: 0 40px;
-  }
   .companies-item {
     max-width: 197px;
   }
@@ -831,9 +825,33 @@ img {
   .philosophy-image {
     height: 600px;
   }
+  .container {
+    padding: 80px 40px;
+  }
+  .skillset-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  .skillset-description {
+    margin-bottom: 48px;
+    margin-right: 0;
+    width: inherit;
+  }
+  .skillset-work__item {
+    width: 284px;
+  }
+  .skillset-work__item--logo {
+    margin: 0;
+    width: 32px;
+    height: 32px;
+    margin-bottom: 24px;
+  }
 }
 
 @media (max-width: 768px) {
+  .container {
+    padding: 80px 20px;
+  }
   .navbar-menu {
     display: none;
   }
@@ -920,6 +938,9 @@ img {
 }
 
 @media (max-width: 576px) {
+  .container {
+    padding: 48px 20px;
+  }
   .header-wrapper {
     margin: 0 20px;
   }
@@ -950,12 +971,6 @@ img {
     font-weight: normal;
     font-size: 18px;
     line-height: 150%;
-  }
-  .companies {
-    padding: 48px 0;
-  }
-  .companies-wrapper {
-    margin: 0 20px;
   }
   .companies-title {
     font-size: 32px;
