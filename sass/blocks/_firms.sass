@@ -1,21 +1,18 @@
-.firms
-  max-width: 2040px
-  height: 140px
-  &-list
-    display: flex
-    list-style-type: none
-    margin: 0
-    padding: 0
-  &-item
-    line-height: 140px
-    text-align: center
-    width: 340px
+.slick
+  &-slider
     height: 140px
+  &-list
+    overflow: hidden
+  &-track
+    display: flex
+    line-height: 140px
+  &-slide
+    height: 140px
+    text-align: center
+    vertical-align: middle
     border: 1px solid $level-1
+    cursor: pointer
     &:first-child
       border-left: none
     &:last-child
       border-right: none
-    &__link
-      &--logo
-        vertical-align: middle

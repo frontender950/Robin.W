@@ -687,36 +687,33 @@ img {
   color: #8491A0;
 }
 
-.firms {
-  max-width: 2040px;
+.slick-slider {
   height: 140px;
 }
 
-.firms-list {
+.slick-list {
+  overflow: hidden;
+}
+
+.slick-track {
   display: flex;
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-.firms-item {
   line-height: 140px;
-  text-align: center;
-  width: 340px;
-  height: 140px;
-  border: 1px solid #181823;
 }
 
-.firms-item:first-child {
+.slick-slide {
+  height: 140px;
+  text-align: center;
+  vertical-align: middle;
+  border: 1px solid #181823;
+  cursor: pointer;
+}
+
+.slick-slide:first-child {
   border-left: none;
 }
 
-.firms-item:last-child {
+.slick-slide:last-child {
   border-right: none;
-}
-
-.firms-item__link--logo {
-  vertical-align: middle;
 }
 
 @media (max-width: 1920px) {
