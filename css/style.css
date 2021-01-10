@@ -591,6 +591,10 @@ img {
   margin-bottom: 4px;
 }
 
+.philosophy-about__link:hover {
+  color: #5221E6;
+}
+
 .philosophy-about__line::after {
   content: '';
   display: block;
@@ -813,7 +817,7 @@ img {
   padding: 120px 72px;
   height: 600px;
   width: 50vw;
-  background-color: #FFF3E4;
+  background-color: #FBE4FF;
 }
 
 .instagram-title {
@@ -851,6 +855,10 @@ img {
   line-height: 150%;
   color: #181823;
   margin-bottom: 4px;
+}
+
+.instagram-about__link:hover {
+  color: #5221E6;
 }
 
 .instagram-about__line::after {
