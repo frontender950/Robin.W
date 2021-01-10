@@ -1,0 +1,49 @@
+.instagram
+  display: flex
+  height: 600px
+  &-left
+    padding: 120px 72px
+    height: 600px
+    width: 50vw
+    background-color: $peach
+  &-title
+    font-style: normal
+    font-weight: bold
+    font-size: 55px
+    line-height: 66px
+    margin: 0
+    margin-bottom: 24px
+    color: $level-1
+  &-text
+    font-style: normal
+    font-weight: normal
+    font-size: 18px
+    line-height: 150%
+    max-width: 576px
+    min-height: 108px
+    margin: 0
+    margin-bottom: 134px
+    color: $dark-gray
+  &-about
+    height: 29px
+    &__link
+      height: 24px
+      text-decoration: none
+      font-style: normal
+      font-weight: normal
+      font-size: 16px
+      line-height: 150%
+      color: $level-1
+      margin-bottom: 4px
+    &__line
+      &::after
+        content: ''
+        display: block
+        width: 125px
+        border: 1px solid $light-gray
+  &-right
+    width: 50vw
+  &-image
+    height: 600px
+    width: 100%
+    object-fit: cover
