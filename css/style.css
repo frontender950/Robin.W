@@ -349,7 +349,6 @@ body {
 }
 
 .container {
-  max-width: 1920px;
   margin: auto;
   padding: 120px 72px;
 }
@@ -589,6 +588,7 @@ img {
   line-height: 150%;
   color: #181823;
   margin-bottom: 4px;
+  color: #181823;
 }
 
 .philosophy-about__link:hover {
@@ -842,11 +842,11 @@ img {
   color: #5B6876;
 }
 
-.instagram-about {
+.instagram-follow {
   height: 29px;
 }
 
-.instagram-about__link {
+.instagram-follow__link {
   height: 24px;
   text-decoration: none;
   font-style: normal;
@@ -855,13 +855,14 @@ img {
   line-height: 150%;
   color: #181823;
   margin-bottom: 4px;
+  color: #181823;
 }
 
-.instagram-about__link:hover {
+.instagram-follow__link:hover {
   color: #5221E6;
 }
 
-.instagram-about__line::after {
+.instagram-follow__line::after {
   content: '';
   display: block;
   width: 125px;
@@ -876,6 +877,94 @@ img {
   height: 600px;
   width: 100%;
   object-fit: cover;
+}
+
+.dribble {
+  padding: 120px 182px;
+}
+
+.dribble-container {
+  width: 1076px;
+  height: 1008px;
+}
+
+.dribble-description__title {
+  margin: 0;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 55px;
+  line-height: 66px;
+  margin-bottom: 24px;
+}
+
+.dribble-description__text {
+  margin: 0;
+  font-style: normal;
+  font-weight: normal;
+  margin-bottom: 40px;
+  max-width: 636px;
+  font-size: 18px;
+  line-height: 150%;
+  color: #8491A0;
+}
+
+.dribble-description__link {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%;
+  margin-bottom: 4px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.dribble-description__link:hover {
+  color: #5221E6;
+}
+
+.dribble-description__line::after {
+  content: '';
+  display: block;
+  width: 170px;
+  margin-bottom: 120px;
+  border: 1px solid #8491A0;
+}
+
+.dribble-page {
+  height: 36px;
+  background-color: #181823;
+  border-radius: 8px 8px 0px 0px;
+}
+
+.dribble-page__box {
+  max-width: 1076px;
+  height: 36px;
+}
+
+.dribble-page__box--wrapper {
+  width: 48px;
+  height: 12px;
+  padding-top: 12px;
+  margin-left: 16px;
+}
+
+.dribble-page__box--circle {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #5B6876;
+}
+
+.dribble-page__transparent {
+  opacity: 1;
+  height: 640px;
+}
+
+.dribble-page__transparent--img {
+  max-width: 1076px;
+  height: 640px;
+  border-radius: 0px 0px 8px 8px;
 }
 
 @media (max-width: 1920px) {
@@ -1220,7 +1309,7 @@ img {
     font-size: 18px;
     line-height: 150%;
   }
-  .instagram-about {
+  .instagram-follow {
     font-style: normal;
     font-weight: normal;
     font-size: 16px;

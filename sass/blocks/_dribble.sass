@@ -1,0 +1,64 @@
+.dribble
+  padding: 120px 182px
+  &-container
+    width: 1076px
+    height: 1008px
+  &-description
+    &__title
+      margin: 0
+      font-style: normal
+      font-weight: bold
+      font-size: 55px
+      line-height: 66px
+      margin-bottom: 24px
+    &__text
+      margin: 0
+      font-style: normal
+      font-weight: normal
+      margin-bottom: 40px
+      max-width: 636px
+      font-size: 18px
+      line-height: 150%
+      color: $light-gray
+    &__link
+      font-style: normal
+      font-weight: normal
+      font-size: 16px
+      line-height: 150%
+      margin-bottom: 4px
+      color: $text
+      text-decoration: none
+      &:hover
+        color: $purple
+    &__line
+      &::after
+        content: ''
+        display: block
+        width: 170px
+        margin-bottom: 120px
+        border: 1px solid $light-gray
+  &-page
+    height: 36px
+    background-color: $level-1
+    border-radius: 8px 8px 0px 0px
+    &__box
+      max-width: 1076px
+      height: 36px
+      &--wrapper
+        width: 48px
+        height: 12px
+        padding-top: 12px
+        margin-left: 16px
+      &--circle
+        display: inline-block
+        width: 12px
+        height: 12px
+        border-radius: 50%
+        background-color: $dark-gray
+    &__transparent
+      opacity: 1
+      height: 640px
+      &--img
+        max-width: 1076px
+        height: 640px
+        border-radius: 0px 0px 8px 8px
