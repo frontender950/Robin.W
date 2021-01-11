@@ -587,8 +587,6 @@ img {
   font-size: 16px;
   line-height: 150%;
   color: #181823;
-  margin-bottom: 4px;
-  color: #181823;
 }
 
 .philosophy-about__link:hover {
@@ -599,6 +597,7 @@ img {
   content: '';
   display: block;
   width: 116px;
+  margin-top: 4px;
   border: 1px solid #8491A0;
 }
 
@@ -866,6 +865,7 @@ img {
   content: '';
   display: block;
   width: 125px;
+  margin-top: 4px;
   border: 1px solid #8491A0;
 }
 
@@ -913,7 +913,6 @@ img {
   font-weight: normal;
   font-size: 16px;
   line-height: 150%;
-  margin-bottom: 4px;
   color: #ffffff;
   text-decoration: none;
 }
@@ -926,6 +925,7 @@ img {
   content: '';
   display: block;
   width: 170px;
+  margin-top: 4px;
   margin-bottom: 120px;
   border: 1px solid #8491A0;
 }
@@ -965,6 +965,113 @@ img {
   max-width: 1076px;
   height: 640px;
   border-radius: 0px 0px 8px 8px;
+}
+
+.feedback-wrapper {
+  display: flex;
+}
+
+.feedback-sticky {
+  width: 588px;
+  margin-right: 72px;
+}
+
+.feedback-sticky__title {
+  position: sticky;
+  top: 120px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 55px;
+  line-height: 66px;
+  margin: 0;
+  margin-bottom: 24px;
+}
+
+.feedback-sticky__text {
+  position: sticky;
+  top: 276px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 150%;
+  margin: 0;
+  margin-bottom: 40px;
+  color: #8491A0;
+}
+
+.feedback-sticky__link {
+  position: sticky;
+  top: 370px;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.feedback-sticky__link:hover {
+  color: #5221E6;
+}
+
+.feedback-sticky__line::after {
+  content: '';
+  display: block;
+  position: sticky;
+  top: 398px;
+  width: 146px;
+  margin-top: 4px;
+  border: 1px solid #8491A0;
+}
+
+.feedback-card__list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.feedback-card__item {
+  margin-bottom: 120px;
+  border: 1px solid #5B6876;
+}
+
+.feedback-card__item:last-child {
+  margin-bottom: 0;
+}
+
+.feedback-card__item--pic {
+  width: 636px;
+  height: 360px;
+}
+
+.feedback-card__item--review {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 150%;
+  width: 508px;
+  min-height: 180px;
+  margin: 0;
+  margin-bottom: 64px;
+}
+
+.feedback-card__item--name {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 150%;
+  margin-bottom: 4px;
+  color: #5B6876;
+}
+
+.feedback-card__item--ceo {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 150%;
+  color: #5B6876;
+}
+
+.feedback-card__info {
+  display: flex;
+  flex-direction: column;
+  padding: 64px;
 }
 
 @media (max-width: 1920px) {
