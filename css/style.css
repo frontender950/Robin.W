@@ -1128,21 +1128,135 @@ img {
 
 .content {
   display: flex;
+}
+
+.content__item {
+  display: none;
+  margin-right: 24px;
+}
+
+.content__item--active {
+  display: block;
+}
+
+.content__item--list {
+  display: flex;
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
 
-.content__item {
-  display: none;
+.content__item--li {
+  margin-right: 24px;
+}
+
+.content__item--li:last-child {
+  margin-right: 0;
+}
+
+.content__item--image {
   width: 306px;
   height: 420px;
-  margin-right: 24px;
   object-fit: cover;
 }
 
-.content__item--active {
-  display: block;
+.contact {
+  padding: 120px 182px;
+}
+
+.contact-wrapper {
+  display: flex;
+}
+
+.contact__left {
+  width: 526px;
+  margin-right: 24px;
+}
+
+.contact__left--start {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 55px;
+  line-height: 66px;
+  margin: 0;
+  margin-bottom: 24px;
+  color: #ffffff;
+}
+
+.contact__left--text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 150%;
+  margin: 0;
+  color: #8491A0;
+}
+
+.contact__form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact__form--label {
+  display: flex;
+  flex-direction: column;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%;
+}
+
+.contact__form--name {
+  padding: 8px;
+  font-style: normal;
+  font-weight: normal;
+  width: 526px;
+  height: 50px;
+  background-color: #181823;
+  color: #ffffff;
+  margin-bottom: 40px;
+  margin-top: 8px;
+  border: none;
+}
+
+.contact__form--email {
+  padding: 8px;
+  font-style: normal;
+  font-weight: normal;
+  width: 526px;
+  height: 50px;
+  background-color: #181823;
+  color: #ffffff;
+  margin-bottom: 40px;
+  margin-top: 8px;
+  border: none;
+}
+
+.contact__form--message {
+  padding: 8px;
+  font-style: normal;
+  font-weight: normal;
+  width: 526px;
+  height: 100px;
+  background-color: #181823;
+  color: #ffffff;
+  margin-bottom: 40px;
+  margin-top: 8px;
+  border: none;
+  resize: none;
+}
+
+.contact__form--button {
+  padding: 24px 178.5px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 150%;
+  color: #ffffff;
+  background-color: #5221E6;
+  width: 100%;
+  border: none;
+  cursor: pointer;
 }
 
 @media (max-width: 1920px) {

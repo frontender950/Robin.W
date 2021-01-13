@@ -39,14 +39,21 @@
         cursor: pointer
 .content
   display: flex
-  list-style-type: none
-  margin: 0
-  padding: 0
   &__item
     display: none
-    width: 306px
-    height: 420px
     margin-right: 24px
-    object-fit: cover
     &--active
       display: block
+    &--list
+      display: flex
+      list-style-type: none
+      margin: 0
+      padding: 0
+    &--li
+      margin-right: 24px
+      &:last-child
+        margin-right: 0
+    &--image
+      width: 306px
+      height: 420px
+      object-fit: cover
