@@ -1254,6 +1254,7 @@ img {
   line-height: 150%;
   color: #ffffff;
   background-color: #5221E6;
+  text-transform: uppercase;
   width: 100%;
   border: none;
   cursor: pointer;
@@ -1266,6 +1267,7 @@ img {
 
 .footer-wrapper {
   display: flex;
+  margin-bottom: 46px;
 }
 
 .footer-left {
@@ -1276,6 +1278,10 @@ img {
   width: 130px;
   height: 40px;
   margin-bottom: 35px;
+}
+
+.footer-left__social {
+  display: flex;
 }
 
 .footer-left__social-link {
@@ -1303,6 +1309,9 @@ img {
 }
 
 .footer-my__item {
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
   width: 196px;
   height: 48px;
 }
