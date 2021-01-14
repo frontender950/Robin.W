@@ -1259,6 +1259,71 @@ img {
   cursor: pointer;
 }
 
+.footer {
+  padding: 80px 72px;
+  background-color: #181823;
+}
+
+.footer-wrapper {
+  display: flex;
+}
+
+.footer-left {
+  margin-right: 640px;
+}
+
+.footer-left__logo {
+  width: 130px;
+  height: 40px;
+  margin-bottom: 35px;
+}
+
+.footer-left__social-link {
+  margin-right: 20px;
+}
+
+.footer-left__social-link:last-child {
+  margin-right: 0;
+}
+
+.footer-left__social-img {
+  width: 18px;
+  height: 18px;
+}
+
+.footer-right {
+  display: flex;
+}
+
+.footer-my {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  margin-right: 24px;
+}
+
+.footer-my__item {
+  width: 196px;
+  height: 48px;
+}
+
+.footer-my__item-link {
+  color: #ffffff;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%;
+}
+
+.footer-copyright {
+  color: #8491A0;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%;
+}
+
 @media (max-width: 1920px) {
   .hero-square {
     width: 55vw;
