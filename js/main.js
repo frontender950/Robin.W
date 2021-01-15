@@ -3,16 +3,15 @@ $(document).ready(function(){
   var button = $(".button");
   var buttonActive = $(".button--active");
   var menu = $(".mobile-menu");
-  var menuActive = $(".mobile-menu_active"); 
 
   button.click(function(){
     button.toggleClass("button--active");
     menu.toggleClass("mobile-menu_active");  
   buttonActive.click(function(){
     button.removeClass("button--active");
-    menu.removeClass("mobile-menu_active"); 
     });  
   });
+  
   // Слайдер slick секции firms
   $('.slider').slick({
     arrows: false,
