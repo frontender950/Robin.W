@@ -1,4 +1,15 @@
 $(document).ready(function(){
+  // Мобильное меню <768
+  var button = $(".button");
+  var buttonActive = $(".button--active");
+
+  button.click(function(){
+    button.toggleClass("button--active");
+  buttonActive.click(function(){
+    button.removeClass("button--active");
+    });  
+  });
+
 
   // Слайдер slick секции firms
   $('.slider').slick({
