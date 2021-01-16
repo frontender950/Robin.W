@@ -2,10 +2,12 @@
   &-wrapper
     display: flex
   &-sticky
+    position: sticky
+    top: 120px
+    height: 796px
     width: 588px
     margin-right: 72px
     &__title
-      position: sticky
       top: 120px
       font-style: normal
       font-weight: bold
@@ -14,7 +16,6 @@
       margin: 0
       margin-bottom: 24px
     &__text
-      position: sticky
       top: 276px
       font-style: normal
       font-weight: normal
@@ -24,7 +25,6 @@
       margin-bottom: 40px
       color: $light-gray
     &__link
-      position: sticky
       top: 370px
       text-decoration: none
       color: $text
@@ -34,7 +34,6 @@
       &::after
         content: ''
         display: block
-        position: sticky
         top: 398px
         width: 146px
         margin-top: 4px

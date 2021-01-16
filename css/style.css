@@ -1078,12 +1078,14 @@ img {
 }
 
 .feedback-sticky {
+  position: sticky;
+  top: 120px;
+  height: 796px;
   width: 588px;
   margin-right: 72px;
 }
 
 .feedback-sticky__title {
-  position: sticky;
   top: 120px;
   font-style: normal;
   font-weight: bold;
@@ -1094,7 +1096,6 @@ img {
 }
 
 .feedback-sticky__text {
-  position: sticky;
   top: 276px;
   font-style: normal;
   font-weight: normal;
@@ -1106,7 +1107,6 @@ img {
 }
 
 .feedback-sticky__link {
-  position: sticky;
   top: 370px;
   text-decoration: none;
   color: #ffffff;
@@ -1119,7 +1119,6 @@ img {
 .feedback-sticky__line::after {
   content: '';
   display: block;
-  position: sticky;
   top: 398px;
   width: 146px;
   margin-top: 4px;
