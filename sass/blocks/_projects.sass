@@ -1,48 +1,46 @@
-.projects
-  &-subtitle
-    font-style: normal
-    font-weight: bold
-    font-size: 16px
-    line-height: 150%
-    margin-bottom: 8px
-    color: $light-gray
-    align-items: center
-    text-transform: uppercase
-  &-title
-    font-style: normal
-    font-weight: bold
-    font-size: 55px
-    line-height: 66px
-    color: $text
-    margin: 0
-    max-width: 572px
-  &-card
-    &__list
-      display: flex
-      flex-wrap: wrap
+.name
+  width: 636px
+  height: 220px
+  margin-right: 24px
+  margin-bottom: 24px
+  &__item
+    &--subtitle
+      font-style: normal
+      font-weight: bold
+      font-size: 16px
+      line-height: 150%
+      margin-bottom: 8px
+      color: $light-gray
+      align-items: center
+      text-transform: uppercase
+    &--title
+      font-style: normal
+      font-weight: bold
+      font-size: 55px
+      line-height: 66px
+      color: $text
       margin: 0
-      padding: 0
-    &__item
-      list-style-type: none
-      max-width: 636px
-      height: 830px
-      margin-bottom: 24px
-      margin-right: 24px
-      &--my
-        margin: 0
-        margin-bottom: 80px
-        height: 164px
-      &--all
-        padding-top: 91px
-        text-align: center
-        padding-bottom: 78px
-    &__wrapper
+      max-width: 572px
+.cards
+  &__list
+    display: flex
+    flex-wrap: wrap
+    margin: 0
+    padding: 0
+    list-style-type: none
+  &__item
+    max-width: 636px
+    margin-right: 24px
+    margin-bottom: 24px
+    &--name
+      height: 244px
+    &--wrapper
       padding: 40px 32px
-      background: $level-1
-      &--image
-        width: 636px
-        height: 620px
-      &--title
+      background-color: $level-1
+      margin: 0
+      width: 100%
+      min-height: 210px
+      &_title
         margin-top: 0
         margin-bottom: 13px
         font-style: normal
@@ -50,14 +48,22 @@
         font-size: 24px
         line-height: 150%
         align-items: center
-      &--description
+      &_description
         font-style: normal
         font-weight: normal
         font-size: 18px
         line-height: 150%
         margin: 0
-        align-items: center
-    &__button
+        color: $light-gray
+    &--image
+      width: 636px
+      height: 620px
+      margin: 0
+      object-fit: cover
+  .btn__item
+    &--button
+      margin-top: 67px
+      margin-left: 195px
       padding: 24px 32px
       background: inherit
       border: 1px solid $purple

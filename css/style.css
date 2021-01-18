@@ -819,7 +819,14 @@ img {
   border-right: none;
 }
 
-.projects-subtitle {
+.name {
+  width: 636px;
+  height: 220px;
+  margin-right: 24px;
+  margin-bottom: 24px;
+}
+
+.name__item--subtitle {
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
@@ -830,7 +837,7 @@ img {
   text-transform: uppercase;
 }
 
-.projects-title {
+.name__item--title {
   font-style: normal;
   font-weight: bold;
   font-size: 55px;
@@ -840,44 +847,33 @@ img {
   max-width: 572px;
 }
 
-.projects-card__list {
+.cards__list {
   display: flex;
   flex-wrap: wrap;
   margin: 0;
   padding: 0;
-}
-
-.projects-card__item {
   list-style-type: none;
+}
+
+.cards__item {
   max-width: 636px;
-  height: 830px;
-  margin-bottom: 24px;
   margin-right: 24px;
+  margin-bottom: 24px;
 }
 
-.projects-card__item--my {
-  margin: 0;
-  margin-bottom: 80px;
-  height: 164px;
+.cards__item--name {
+  height: 244px;
 }
 
-.projects-card__item--all {
-  padding-top: 91px;
-  text-align: center;
-  padding-bottom: 78px;
-}
-
-.projects-card__wrapper {
+.cards__item--wrapper {
   padding: 40px 32px;
-  background: #181823;
+  background-color: #181823;
+  margin: 0;
+  width: 100%;
+  min-height: 210px;
 }
 
-.projects-card__wrapper--image {
-  width: 636px;
-  height: 620px;
-}
-
-.projects-card__wrapper--title {
+.cards__item--wrapper_title {
   margin-top: 0;
   margin-bottom: 13px;
   font-style: normal;
@@ -887,16 +883,25 @@ img {
   align-items: center;
 }
 
-.projects-card__wrapper--description {
+.cards__item--wrapper_description {
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
   line-height: 150%;
   margin: 0;
-  align-items: center;
+  color: #8491A0;
 }
 
-.projects-card__button {
+.cards__item--image {
+  width: 636px;
+  height: 620px;
+  margin: 0;
+  object-fit: cover;
+}
+
+.cards .btn__item--button {
+  margin-top: 67px;
+  margin-left: 195px;
   padding: 24px 32px;
   background: inherit;
   border: 1px solid #5221E6;
@@ -909,7 +914,7 @@ img {
   color: #FFFFFF;
 }
 
-.projects-card__button:hover {
+.cards .btn__item--button:hover {
   background: #5221E6;
 }
 
