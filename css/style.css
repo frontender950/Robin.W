@@ -1251,13 +1251,18 @@ img {
 
 .content__item--list {
   display: flex;
+  flex-wrap: wrap;
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
 
 .content__item--li {
+  width: 306px;
+  height: 420px;
   margin-right: 24px;
+  object-fit: cover;
+  margin-bottom: 24px;
 }
 
 .content__item--li:last-child {
@@ -1265,9 +1270,9 @@ img {
 }
 
 .content__item--image {
-  width: 306px;
-  height: 420px;
   object-fit: cover;
+  height: 100%;
+  width: 100%;
 }
 
 .contact {

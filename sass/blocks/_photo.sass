@@ -46,14 +46,19 @@
       display: block
     &--list
       display: flex
+      flex-wrap: wrap
       list-style-type: none
       margin: 0
       padding: 0
     &--li
+      width: 306px
+      height: 420px
       margin-right: 24px
+      object-fit: cover
+      margin-bottom: 24px
       &:last-child
         margin-right: 0
     &--image
-      width: 306px
-      height: 420px
       object-fit: cover
+      height: 100%
+      width: 100%
